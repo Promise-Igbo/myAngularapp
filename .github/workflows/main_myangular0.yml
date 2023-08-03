@@ -53,5 +53,5 @@ jobs:
           app-name: 'myangular0'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2AC176552E29406B8A6DA700B93A0133 }}
-          package: ./dist/hello-world-app
+          package: ./dist/hello-sample-app
 
